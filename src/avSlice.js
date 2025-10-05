@@ -1,9 +1,9 @@
     import { createSlice } from "@reduxjs/toolkit";
-    import projectors from '../assets/images/projector.jpg';
-    import speaker from '../assets/images/speakers.jpg';
-    import signs from '../assets/images/signs.png';
-    import whiteboard from '../assets/images/whiteboard.webp';
-    import microphone from '../assets/images/microphone.jpg';
+    import projectors from './assets/images/projector.jpg';
+    import speaker from './assets/images/speakers.jpg';
+    import signs from './assets/images/signs.jpg';
+    import whiteboard from './assets/images/whiteboard.webp';
+    import microphone from './assets/images/microphone.jpg';
 export const avSlice = createSlice({
   name: "av",
   initialState: [

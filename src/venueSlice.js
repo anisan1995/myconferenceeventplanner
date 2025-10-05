@@ -1,10 +1,10 @@
 // venueSlice.js
 import { createSlice } from "@reduxjs/toolkit";
-import conference from '../assets/images/conferenceroom.jpg';
-import auditorium from '../assets/images/auditorium.png';
-import presentation from '../assets/images/presentationroom.png';
-import smallmeeting from '../assets/images/smallmeetingroom.png';
-import meetingroom from '../assets/images/meetingroom.png';
+import conference from './assets/images/conferenceroom.jpg';
+import auditorium from './assets/images/auditorium.jpg';
+import presentation from './assets/images/presentationroom.jpg';
+import smallmeeting from './assets/images/smallmeetingroom.jpg';
+import meetingroom from './assets/images/meetingroom.jpg';
 
 export const venueSlice = createSlice({
   name: "venue",
